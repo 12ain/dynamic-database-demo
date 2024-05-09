@@ -1,0 +1,10 @@
+gin:
+  mode: debug
+  port: 8080
+database:
+#  driver: mysql
+  driver: mongodb
+  mysql:
+    dsn: root:root@tcp(localhost:3306)/dynamic-demo?charset=utf8mb4&parseTime=True&loc=Local
+  mongo:
+    dsn: mongodb://localhost:27017/dynamic-demo
